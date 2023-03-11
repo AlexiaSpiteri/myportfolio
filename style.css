@@ -500,3 +500,24 @@ select#country {
     text-align: justify;
     margin-bottom: auto;
 }
+
+.lct-cmt-card {
+    border: 2px solid #087E8B;
+    transition: 0.3s;
+    width: 335px;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 16px;
+}
+
+.lct-cmt-card:hover {
+    box-shadow: 9px 12px 24px 0 rgb(2, 52, 57);
+}
+
+.lct-comments {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    width: 100%;
+}
