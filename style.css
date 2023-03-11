@@ -501,7 +501,7 @@ select#country {
     margin-bottom: auto;
 }
 
-.lct-cmt-card {
+.container>.lct-comments>.lct-cmt-card {
     border: 2px solid #087E8B;
     transition: 0.3s;
     width: 335px;
@@ -511,11 +511,11 @@ select#country {
     padding: 16px;
 }
 
-.lct-cmt-card:hover {
+.container>.lct-comments>.lct-cmt-card:hover {
     box-shadow: 9px 12px 24px 0 rgb(2, 52, 57);
 }
 
-.lct-comments {
+.container>.lct-comments {
     display: flex;
     justify-content: space-between;
     margin-bottom: 140px;
